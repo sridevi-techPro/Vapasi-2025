@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/VapasiJava.iml" filepath="$PROJECT_DIR$/VapasiJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shapeSrc/shapeSrc.iml" filepath="$PROJECT_DIR$/shapeSrc/shapeSrc.iml" />
     </modules>
   </component>
 </project>
