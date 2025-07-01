@@ -18,10 +18,10 @@ public class TicketBookingService {
     public static void main(String[] args) {
         try (ExecutorService pool = Executors.newFixedThreadPool(5)) {
 
-            pool.execute(new Task("Booking received")); // runnable.run()
+            pool.execute(new Task("Booking received"));
             pool.execute(new Task("Payment processed"));
             pool.execute(new Task("Ticket confirmed"));
-            pool.execute(new Task("Booking received")); // runnable.run()
+            pool.execute(new Task("Booking received"));
             pool.execute(new Task("Payment processed"));
             pool.execute(new Task("Ticket confirmed"));
 
